@@ -3,7 +3,7 @@
 import * as z from "zod"
 import {zodResolver} from "@hookform/resolvers/zod"
 import {
-    Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle, DialogTrigger
+    Dialog, DialogContent, DialogDescription, DialogFooter, DialogHeader, DialogTitle
 } from "@/components/ui/dialog"
 import { useForm } from "react-hook-form"
 import {
@@ -60,7 +60,7 @@ export const InitialModal = () => {
     return (
         <div>
         <Dialog open>
-        <DialogContent className="bg-black text-white p-0 overflow-hidden">
+            <DialogContent className="bg-black text-white p-0 overflow-hidden">
             <DialogHeader className="pt-8 px-6">
             <DialogTitle className="text-2xl text-center font-bold">Customize your server</DialogTitle>
             <DialogDescription className="text-center text-zinc-500">
@@ -104,7 +104,6 @@ export const InitialModal = () => {
             </Form>
         </DialogContent>
         </Dialog>
-
         </div>
     )
 }

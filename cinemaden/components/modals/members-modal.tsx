@@ -72,7 +72,7 @@ export const MembersModal = () => {
     return (
         <div>
         <Dialog open={isModalOpen} onOpenChange={onClose}>
-        <DialogTrigger>Open</DialogTrigger>
+        
         <DialogContent className="bg-black text-white overflow-hidden">
             <DialogHeader className="pt-8 px-6">
             <DialogTitle className="text-2xl text-center font-bold">Manage Members</DialogTitle>

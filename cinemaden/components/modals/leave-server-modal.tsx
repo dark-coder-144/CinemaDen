@@ -36,7 +36,7 @@ export const LeaveServerModal = () => {
     return (
         <div>
         <Dialog open={isModalOpen} onOpenChange={onClose}>
-        <DialogTrigger>Open</DialogTrigger>
+        
         <DialogContent className="bg-black text-white p-0 overflow-hidden">
             <DialogHeader className="pt-8 px-6">
             <DialogTitle className="text-2xl text-center font-bold">Leave Server</DialogTitle>
